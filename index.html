@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-		<title>IsisOne - Personal or Agency Portfolio</title>
-		<meta name="description" content="" />
-		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+		<title>Jen Abella - Learn | Laugh | Lead</title>
+		<meta name="description" content="Personal portfolio for Jennifer Abella - Learn | Laugh | Lead" />
+		<meta name="Author" content="Jennifer Abella" />
 
 		<!--[if lt IE 9]>
 			<script type="text/javascript" src="assets/plugins/lt-ie9/html5.js"></script>
@@ -48,102 +48,47 @@
 
 		<!-- ICONS -->
 		<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
-		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
-		<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+		<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
 
 		<!-- mobile settings -->
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
-
-		<!-- STYLESWITCHER -->
-		<link href="assets/plugins/styleswitcher/styleswitcher.css" rel="stylesheet" type="text/css"/>
 
 		<!-- Morenizr -->
 		<script type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
 	</head>
 	<body>
 
-
-		<!-- STYLESWITCHER -->
-		<div id="switcher">
-			<div class="content-switcher" >        
-				<h4>STYLE OPTIONS</h4>
-
-				<p>Color Skin:</p>
-				<ul style="width:150px;">            
-					<li><a href="#" onclick="setActiveStyleSheet('blue'); return false;" class="color" style="background-color:#50657B"></a></li><!-- default -->
-					<li><a href="#" onclick="setActiveStyleSheet('orange'); return false;" class="color" style="background-color:#F07057"></a></li>
-					<li><a href="#" onclick="setActiveStyleSheet('green'); return false;" class="color" style="background-color:#7E8344"></a></li>
-					<li><a href="#" onclick="setActiveStyleSheet('red'); return false;" class="color" style="background-color:#e93735"></a></li>
-					<li><a href="#" onclick="setActiveStyleSheet('pink'); return false;" class="color" style="background-color:#f73f69"></a></li>
-					<li><a href="#" onclick="setActiveStyleSheet('mauve'); return false;" class="color" style="background-color:#c91ac9"></a></li>
-					<li><a href="#" onclick="setActiveStyleSheet('yellow'); return false;" class="color" style="background-color:#f1c40f"></a></li>
-					<li><a href="#" onclick="setActiveStyleSheet('gray'); return false;" class="color" style="background-color:#333333"></a></li>
-				</ul>        
-
-				<p>Home Page Template:</p>
-				<div class="styled-select">
-					<select onchange="window.document.location.href=this.options[this.selectedIndex].value;">  
-						
-						<optgroup label="+ Personal">
-							<option value="index-personal-full.html">01. Fullscreen Slider</option>
-							<option value="index-personal-half.html">02. Halfscreen Slider</option>
-							<option selected="selected">03. Full Video</option>
-						</optgroup>
-
-						<optgroup label="+ Agency">
-							<option value="index-agency-full.html">01. Fullscreen Slider</option>
-							<option value="index-agency-half.html">02. Halfscreen Slider</option>
-							<option value="index-agency-video.html">03. Full Video</option>
-						</optgroup>
-
-						<optgroup label="+ Application">
-							<option value="index-application-full.html">01. Fullscreen Slider</option>
-							<option value="index-application-half.html">02. Halfscreen Slider</option>
-							<option value="index-application-video.html">03. Full Video</option>
-						</optgroup>
-
-						<optgroup label="Misc">
-							<option value="countdown-image.html">Count Down - Image</option>
-							<option value="countdown-video.html">Count Down - Video</option>
-							<option value="index-video-full.html">404 Not Found</option>
-							<option value="faq.html">Faq Page</option>
-							<option value="text-page.html">Default Text Page</option>
-						</optgroup>
-
-					</select>
-				</div>
-
-				<div class="switcher-links">
-					<a href="elements.html">elements.html</a>
-					<a href="typography.html">typography.html</a>
-					<a href="icons-fontawsome.html">icons-fontawsome.html</a>
-					<a href="icons-linecons.html">icons-linecons.html</a>
-				</div>
-
-				<div id="hideSwitcher">&times;</div>
-			</div>
-		</div>
-		<div id="showSwitcher"><i class="fa fa-tint"></i></div>
-		<!-- /STYLESWITCHER -->
-
-
 		<!-- HOME -->
-		<section id="home" class="full-screen video" style="background-image:url('assets/images/preview/slider/vision.jpg');"><!-- background used for mobiles or error/not loading -->
+		<section id="home" class="half-screen"><!-- full-screen or half-screen (550px height) -->
 
-			<!-- video audio icon -->
-			<a href="#" id="video-volume"><i class="fa fa-volume-down"></i></a>
+			<div id="slider">
 
-			<!-- Video Background - replace videoURL with your youtube video URL -->
-			<a id="YTPlayer" class="player" data-property="{videoURL:'http://www.youtube.com/watch?v=A3PDXmYoF5U',containment:'body',autoPlay:true, mute:true, startAt:4, opacity:1}">youtube</a>
-			<!--/Video Background -->
+				<!-- slider navigation -->
+				<nav class="slides-navigation">
+					<a class="prev" href="#"></a>
+					<a class="next" href="#"></a>
+				</nav>
 
-			<span class="raster"><!-- video raster --></span>
+				<ul class="slides-container">
 
-			<!-- Caption -->
-			<div class="image-caption">
-				<div class="inner">
-					<img src="assets/images/fullscreen-video.png" class="img-responsive" alt="" />
-				</div>
+					<!-- Item 1 -->
+					<li>
+						<div class="image-caption">
+							<hr /><hr />
+							<div class="inner">
+								<h2 class="bigtext strtoupper nomargin">Jen Abella</h2>
+								<p> Learn | Laugh | Lead</p>
+							</div>
+							<hr /><hr />
+						</div>
+
+						<!--<span class="overlay"></span>-->
+						<div style="background-image: url('assets/images/pears.jpg');" class="fullscreen-img"></div>
+					</li>
+
+				</ul>
+
 			</div>
 
 		</section>
@@ -162,8 +107,7 @@
 
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
-						<a class="navbar_brand scrollTo" href="#home">
-							<img src="assets/images/logo/100x100/white.png" alt="" width="50" height="50" /> 
+						<a class="navbar_brand scrollTo" href="#home"> 
 							<!--
 								Span class:
 									- dark
@@ -174,22 +118,18 @@
 									Example:
 										<span class="white">ISIS</span><span class="styleColor">ONE</span>
 							-->
-							<span class="">ISIS ONE</span>
+							<span class="">JMA</span>
 						</a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-						<!-- Fullscreen Button - Unavailable for IE -->
-						<a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>
-
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#home" class="scrollTo">Home</a></li>
 							<li><a href="#about" class="scrollTo">About</a></li>
-							<li><a href="#work" class="scrollTo">Work</a></li>
-							<li><a href="#services" class="scrollTo">Services</a></li>
-							<li><a href="blog.html">Blog</a></li>
+							<li><a href="#work" class="scrollTo">Projects</a></li>
+							<li><a href="#services" class="scrollTo">Skills</a></li>
 							<li><a href="#contact" class="scrollTo">Contact</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -199,11 +139,6 @@
 
 		</header>
 		<!-- /Main Nav -->
-
-
-
-
-
 
 		<!-- ABOUT -->
 		<section id="about">
@@ -220,30 +155,30 @@
 
 				<div class="me-picture text-center">
 					<div class="item">
-						<img class="img-responsive" src="assets/images/preview/content/people/2.jpg" width="200" height="200" alt="" />
+						<img class="img-responsive" src="assets/images/me.jpg" width="200" height="200" alt="" />
 					</div><hr />
 				</div>
 
 				<article>
 					<div class="row text-left">
 
-						<!-- Passion -->
+						<!-- Learn -->
 						<div class="col-md-4">
-							<h3>Passion</h3>
+							<h3>Learn</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
 						</div>
 
 
-						<!-- Precision -->
+						<!-- Laugh -->
 						<div class="col-md-4">
-							<h3>Precision</h3>
+							<h3>Laugh</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
 						</div>
 
 
-						<!-- Simplicity -->
+						<!-- Lead -->
 						<div class="col-md-4">
-							<h3>Simplicity</h3>
+							<h3>Lead</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
 						</div>
 
@@ -251,12 +186,12 @@
 				</article>
 
 				<!-- curriculum vitae button  -->
-				<!--
+				
 					<article class="curriculum-vitae text-center">
-						<a href="#" class="plusNav">+</a> 
-						<p>curriculum vitae</p>
+						<a href="https://www.linkedin.com/in/jennifermabella" class="plusNav">+</a> 
+						<p>curriculum-vitae?  or should I put the linkedIn logo</p>
 					</article>
-				-->
+				
 
 			</div>
 		</section>
@@ -279,7 +214,7 @@
 
 				<article>
 					<p>
-						Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. Andouille tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin. Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank.
+						Coding for fun and soon, hopefully, profit.
 					</p>
 				</article>
 
@@ -289,9 +224,9 @@
 					<div class="text-center">
 						<ul class="nav nav-tabs bstrap-tabs isotope-filter" data-sort-id="isotope-list" data-option-key="filter">
 							<li data-option-value="*" class="active"><a href="#">ALL</a></li>
-							<li data-option-value=".image"><a href="#">IMAGES</a></li>
-							<li data-option-value=".brand"><a href="#">BRANDING</a></li>
-							<li data-option-value=".video"><a href="#">VIDEO</a></li>
+							<li data-option-value=".website"><a href="#">WEBSITES</a></li>
+							<li data-option-value=".app"><a href="#">APPS</a></li>
+							<li data-option-value=".game"><a href="#">BAKED GOODS</a></li>
 						</ul>
 					</div>
 					<!-- /PORTFOLIO FILTER -->
@@ -301,71 +236,39 @@
 
 						<ul class="sort-destination isotope" data-sort-id="isotope-list">
 
-							<li class="isotope-item col-sm-6 col-md-4 image"><!-- item -->
-								<a class="popup-image" href="assets/images/preview/slider/1.jpg">
-									<img src="assets/images/1x1.png" class="img-responsive" data-src="holder.js/360x360/#676767:#555555/auto/" alt="img" />
+							<li class="isotope-item col-sm-6 col-md-4 website"><!-- item -->
+								<a class="popup-image" href="https://theenchantedrockgarden.com">
+									<img src="assets/images/purple_rock_test_photo.jpg" class="img-responsive" data-src="" alt="The Enchanted Rock Garden by Jen Abella"/>
 									<div class="caption">
-										<i class="rounded fa fa-camera"></i>
-										<h3>PROJECT TITLE</h3>
-										<p>Image Popup</p>
+										<i class="rounded fa fa-laptop"></i>
+										<h3>The Enchanted Rock Garden</h3>
+										<p>Took a rock shop's web presence from jurassic to germaine.</p>
 									</div>
 								</a>
 							</li>
 
-							<li class="isotope-item col-sm-6 col-md-4 video"><!-- item -->
-								<a class="popup-video" href="http://www.youtube.com/watch?v=kh29_SERH0Y?rel=0">
-									<img src="assets/images/1x1.png" class="img-responsive" data-src="holder.js/360x360/#676767:#555555/auto/" alt="img" />
+							<li class="isotope-item col-sm-6 col-md-4 app"><!-- item -->
+								<a class="popup-image" href="">
+									<img src="assets/images/close_raspberries.jpg" class="img-responsive" data-src="" alt="Tudor Tutor - an application by a group including Jen Abella" />
 									<div class="caption">
 										<i class="rounded fa fa-film"></i>
-										<h3>PROJECT TITLE</h3>
-										<p>Youtube Video</p>
+										<h3>Tudor Tutor</h3>
+										<p>Your British Period Drama Resource</p>
 									</div>
 								</a>
 							</li>
 
-							<li class="isotope-item col-sm-6 col-md-4 video brand"><!-- item -->
-								<a class="popup-video" href="http://vimeo.com/23630702">
-									<img src="assets/images/1x1.png" class="img-responsive" data-src="holder.js/360x360/#676767:#555555/auto/" alt="img" />
+							<li class="isotope-item col-sm-6 col-md-4 video app"><!-- item -->
+								<a class="popup-image" href="">
+									<img src="assets/images/tshirt.jpg" class="img-responsive" data-src="" alt="Nerdy T-Shirt that says Thinking"/>
 									<div class="caption">
-										<i class="rounded fa fa-film"></i>
-										<h3>PROJECT TITLE</h3>
-										<p>Vimeo Video</p>
+										<i class="rounded fa fa-shirtsinbulk"></i>
+										<h3>Coder Closet</h3>
+										<p>Concentrate on your code, not your clothes.</p>
 									</div>
 								</a>
 							</li>
 
-							<li class="isotope-item col-sm-6 col-md-4 brand"><!-- item -->
-								<a class="external ajax-project" href="project-external-1.html">
-									<img src="assets/images/1x1.png" class="img-responsive" data-src="holder.js/360x360/#676767:#555555/auto/" alt="img" />
-									<div class="caption">
-										<i class="rounded fa fa-link"></i>
-										<h3>PROJECT TITLE</h3>
-										<p>External Project 1</p>
-									</div>
-								</a>
-							</li>
-
-							<li class="isotope-item col-sm-6 col-md-4 brand"><!-- item -->
-								<a class="external ajax-project" href="project-external-2.html">
-									<img src="assets/images/1x1.png" class="img-responsive" data-src="holder.js/360x360/#676767:#555555/auto/" alt="img" />
-									<div class="caption">
-										<i class="rounded fa fa-link"></i>
-										<h3>PROJECT TITLE</h3>
-										<p>External Project 2</p>
-									</div>
-								</a>
-							</li>
-
-							<li class="isotope-item col-sm-6 col-md-4 brand"><!-- item -->
-								<a class="external ajax-project" href="project-external-3.html">
-									<img src="assets/images/1x1.png" class="img-responsive" data-src="holder.js/360x360/#676767:#555555/auto/" alt="img" />
-									<div class="caption">
-										<i class="rounded fa fa-link"></i>
-										<h3>PROJECT TITLE</h3>
-										<p>External Project 3</p>
-									</div>
-								</a>
-							</li>
 
 						</ul>
 					</div>
@@ -381,11 +284,11 @@
 			<div class="container text-center">
 
 				<header data-animation="bounceIn">
-					<h1 class="no-text-transform italic">Only one step to work together</h1>
+					<h1 class="no-text-transform italic">HIRE ME! </h1>
 				</header>
 
 				<article class="text-center">
-					<h2>1-800-555-12345</h2>
+					<h2>867 - 5309</h2>
 					<p>CALL ME NOW - or - <a href="#contact" class="scrollTo">MESSAGE ME</a></p>
 				</article>
 
@@ -399,12 +302,12 @@
 		<section id="services">
 
 			<header class="text-center">
-				<h1>SERVICES</h1>
+				<h1>Skills and Experience</h1>
 			</header>
 
 			<div class="divider"><!-- lines divider --></div>
 
-			<div class="inner-cover" style="background-image:url('assets/images/preview/slider/3.jpg')">
+			<div class="inner-cover" style="background-image:url('assets/images/preview/slider/vision.jpg')">
 
 				<!--
 					Optional - raster or overlay backgrounds, for brighten images.
@@ -416,7 +319,7 @@
 
 					<span class="overlay gray"></span>
 				-->
-				<span class="overlay gray"></span>
+				<!-- <span class="overlay gray"></span> -->
 
 
 				<div class="container text-center">
@@ -425,35 +328,35 @@
 						<li><!-- service 1 -->
 							<a href="#service-1" class="service yellow scrollTo">
 								<i class="icon-globe"></i>
-								<h3>Corporate Identity</h3>
+								<h3>Should</h3>
 							</a>
 						</li>
 
 						<li><!-- service 2 -->
 							<a href="#service-2" class="service orange scrollTo">
 								<i class="icon-eye"></i>
-								<h3>Graphic Design</h3>
+								<h3>These</h3>
 							</a>
 						</li>
 
 						<li><!-- service 3 -->
 							<a href="#service-3" class="service mauve scrollTo">
 								<i class="fa fa-code"></i>
-								<h3>Development</h3>
+								<h3>Be Programming</h3>
 							</a>
 						</li>
 
 						<li><!-- service 4 -->
 							<a href="#service-4" class="service green scrollTo">
 								<i class="icon-videocam"></i>
-								<h3>Video</h3>
+								<h3>Languages</h3>
 							</a>
 						</li>
 
 						<li><!-- service default -->
 							<a href="#service-4" class="service scrollTo">
 								<i class="fa fa-smile-o"></i>
-								<h3>Default</h3>
+								<h3>I know?</h3>
 							</a>
 						</li>
 					</ul>
@@ -476,13 +379,13 @@
 			<article id="service-1" class="container service-desc animate_fade_in">
 				<div class="row">
 					<div class="col-xs-12 col-md-3 text-left">
-						<h3><i class="yellow fa fa-stop"></i> Corporate Identity</h3>
+						<h3><i class="yellow fa fa-stop"></i> Macy's Herald Square</h3>
 					</div>
 					<div class="col-xs-6 col-md-3 text-left">
 						<ul>
-							<li>Naming</li>
-							<li>Logo design</li>
-							<li>Brandbooks</li>
+							<li>Hiring & Development</li>
+							<li>iPad Implementation</li>
+							<li>Operation execution</li>
 						</ul>
 					</div>
 					<div class="col-xs-6 col-md-6 text-left">
@@ -495,16 +398,15 @@
 			<article id="service-2" class="container service-desc animate_fade_in">
 				<div class="row">
 					<div class="col-xs-12 col-md-3 text-left">
-						<h3><i class="orange fa fa-stop"></i> Graphic Design</h3>
+						<h3><i class="orange fa fa-stop"></i> Bloomingdales 59th Street</h3>
 					</div>
 					<div class="col-xs-6 col-md-6 text-left">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
 					</div>
 					<div class="col-xs-6 col-md-3 text-right">
 						<ul>
-							<li>2D &amp; 3D Animation</li>
-							<li>TV Spots</li>
-							<li>Corporate videos</li>
+							<li>Shoes on 2 </li>
+							<li>Tabletop </li>
 						</ul>
 					</div>
 				</div>
@@ -514,10 +416,10 @@
 			<article id="service-3" class="container service-desc animate_fade_in">
 				<div class="row">
 					<div class="col-xs-12 col-md-3 text-left">
-						<h3><i class="mauve fa fa-stop"></i> Development</h3>
+						<h3><i class="mauve fa fa-stop"></i> Specific Skills?</h3>
 					</div>
 					<div class="col-xs-12 col-md-9 text-left">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
+						<p>And a lovely description of projects that demonstrated them? </p>
 					</div>
 				</div>
 			</article>
@@ -526,27 +428,27 @@
 			<article id="service-4" class="container service-desc animate_fade_in">
 				<div class="row">
 					<div class="col-xs-12 col-md-3 text-left">
-						<h3><i class="green fa fa-stop"></i> Video</h3>
+						<h3><i class="green fa fa-stop"></i> And maybe the languages</h3>
 					</div>
 					<div class="col-xs-6 col-md-3 text-left">
 						<ul>
-							<li>2D &amp; 3D Animation</li>
-							<li>TV Spots</li>
-							<li>Corporate videos</li>
+							<li>HTML</li>
+							<li>CSS3</li>
+							<li>Bootstrap</li>
 						</ul>
 					</div>
 					<div class="col-xs-4 col-md-3 text-left">
 						<ul>
-							<li>Adverts</li>
-							<li>Packaging design</li>
+							<li>Ruby</li>
+							<li>Javascript</li>
 							<li>Stands &amp; Rollups</li>
 						</ul>
 					</div>
 					<div class="col-xs-4 col-md-3 text-left">
 						<ul>
-							<li>Adverts</li>
-							<li>Packaging design</li>
-							<li>Stands &amp; Rollups</li>
+							<li>Rails</li>
+							<li>Ember</li>
+							<li>Angular</li>
 						</ul>
 					</div>
 				</div>
@@ -575,10 +477,10 @@
 						<div class="col-md-4 quick-hover">
 							<div class="quick-item">
 								<figure class="media-preview"><!-- image -->
-									<img src="assets/images/1x1.png" class="img-responsive" data-src="holder.js/360x200/#676767:#555555/auto/" alt="img" />
+									<img src="assets/images/ruby_image.jpg" class="img-responsive" data-src="" alt="It's a beautiful, shiny Ruby" />
 								</figure>
 
-								<h4>Simple but powerful</h4>
+								<h4>Gems</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
 								<a href="blog-post.html" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
 							</div>
@@ -588,13 +490,13 @@
 						<!-- article -->
 						<div class="col-md-4 quick-hover">
 							<div class="quick-item">
-								<div class="media-preview"><!-- video -->
-									<iframe src="https://player.vimeo.com/video/24569304?title=0&amp;byline=0&amp;portrait=0" width="360" height="200"></iframe>
+								<div class="media-preview"><!-- image -->
+									<img src="assets/images/fat_jewish.jpeg" class="img-responsive" alt="Super and the Fat Jewish blog post photo">
 								</div>
 
-								<h4>Easy to customize</h4>
+								<h4>Super and The Fat Jewish</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
-								<a href="blog-post.html" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+								<a href="blog-post.html" class="btn btn-xs"><i class="fa fa-sign-out"></i> Not sure you can click and read more here</a>
 							</div>
 						</div>
 
@@ -602,8 +504,8 @@
 						<!-- article -->
 						<div class="col-md-4 quick-hover">
 							<div class="quick-item">
-								<div class="media-preview"><!-- audio -->
-									<iframe class="fullwidth" height="200" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/97336936&amp;color=7E8344&amp;auto_play=false&amp;show_artwork=false"></iframe>
+								<div class="media-preview"><!-- image -->
+									<img src="assets/images/pulp_fiction_case.gif" alt="What's in the case? From Pulp Fiction" class="img-responsive">
 								</div>
 
 								<h4>Easy to integrate</h4>
@@ -683,8 +585,8 @@
 		<section class="cover" style="background-image:url('assets/images/preview/slider/road.jpg')">
 			<span class="overlay"></span>
 			<div class="container text-center" data-animation="bounceIn">
-				<q>We can't solve problems by using the same kind of thinking we used when we created them.</q>
-				<cite>Albert Einstein</cite>
+				<q>If it doesn't challenge you, it doesn't change you.</q>
+				<cite></cite>
 			</div>
 		</section>
 		<!-- /QUOTE -->
@@ -703,14 +605,14 @@
 				<div class="row">
 
 					<div class="col-md-6 copyright">
-						Your Company, LTD<br />
-						2014 &copy; All Rights Reserved.
+						Jen Abella<br />
+						2016 &copy; All Rights Reserved.
 					</div>
 
 					<div class="col-md-6 text-right">
-						<a href="#" class="social fa fa-facebook"></a>
-						<a href="#" class="social fa fa-twitter"></a>
-						<a href="#" class="social fa fa-google-plus"></a>
+						<a href="https://www.linkedin.com/in/jennifermabella" class="social fa fa-linkedin"></a>
+						<a href="https://twitter.com/JenniferAbella" class="social fa fa-twitter"></a>
+						<a href="https://github.com/psswf1172" class="social fa fa-github"></a>
 					</div>
 
 				</div>
@@ -726,6 +628,7 @@
 		<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="assets/plugins/jquery.isotope.js"></script>
 		<script type="text/javascript" src="assets/plugins/masonry.js"></script>
+
 
 		<!-- PLUGINS -->
 		<script type="text/javascript" src="assets/plugins/jquery-appear/jquery.appear.js"></script>
