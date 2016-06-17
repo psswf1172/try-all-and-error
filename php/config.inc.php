@@ -3,7 +3,7 @@
 $config['smtp_host'] 			= 'ssl://smtp.gmail.com';   // eg.: smtp.mandrillapp.com
 $config['smtp_port'] 			= 465;						// eg.: 587
 $config['smtp_user'] 			= 'jennifermabella@gmail.com'; 						// you@gmail.com
-$config['smtp_pass'] 			= '11Princess';						// password
+$config['smtp_pass'] 			= '';						// password
 $config['smtp_ssl']				= false;					// should remain false
 
 // Who receive all emails?
