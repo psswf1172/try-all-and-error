@@ -1,0 +1,35 @@
+/* Colors */
+
+var lightGreen: #A0BC23;
+var grayishYellow: #ABA798;
+var darkModerateYellow: #7E8344;
+var vividYellow: #F1C40F;
+var yellow:#ffff00;
+var anotherDarkGray: #777;
+var darkGray: #999;
+var veryDarkGray: #666;
+var anotherVeryDarkGray: #333;
+var lightGray: #888;
+var lighterGray: #ccc;
+var anotherLighterGray: #ddd;
+var veryLightGray: #eee;
+var anotherVeryLightGray:#F0F0F0;
+var yetAnotherVeryLightGray: #E7E7E7;
+var veryLightGrayMostlyWhite: #f6f6f6;
+var anotherVeryLightGrayMostlyWhite: #f3f3f3;
+var lightGrayishCyan: #dee5e7;
+var softCyan: #5bc0de;
+var softOrange: #f0ad4e;
+var white: #fff;
+var brightBlue: #377ef4;
+var veryDarkBlue: #0F1113;
+var veryDarkGrayishBlue: #2A2F36;
+var darkGrayishBlue: #647282;
+var veryDarkBlueBlack: #232428;
+var black: #000;
+var moderateRed: #D05B51;
+var softRed: #F07057;
+var anothersoftRed: #d9534f;
+var brightRed: #F73F69;
+var strongMagenta: #C91Ac9;
+var moderateLimeGreen: #5cb85c;
