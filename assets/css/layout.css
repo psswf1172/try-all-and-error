@@ -380,7 +380,7 @@ section .btn {
 		line-height:95%;
 		text-transform:uppercase;
 		text-shadow:none;
-		color:#A0BC23;	display:block;
+		color:#fff;	display:block;
 	}
 	#home .image-caption p {
 		font-family: 'Open Sans', sans-serif;
